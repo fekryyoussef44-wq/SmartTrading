@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Updated Page Title (Change 2) -->
+    <title>Your Trading Path – Learn Trading from Scratch to Pro</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Setting up Inter font for a professional look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A; /* Slate 900 for a deep, trustworthy background */
+            color: #E2E8F0; /* Slate 200 for readable text */
+        }
+        .cta-button {
+            transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4); /* Indigo shadow */
+        }
+        /* Simple, clean icon style */
+        .feature-icon {
+            color: #6366F1; /* Indigo 500 */
+        }
+        /* Ensure Arabic text is displayed clearly, especially in the button */
+        .arabic-text {
+            font-family: 'Inter', 'Arial', sans-serif; /* Fallback for Arabic characters */
+        }
+        /* Custom style for the bundle highlight */
+        .bundle-highlight {
+            background-color: #166534; /* Dark Green */
+            border-color: #4ADE80; /* Light Green accent */
+            box-shadow: 0 10px 25px rgba(74, 222, 128, 0.3);
+        }
+        .bundle-badge {
+            background-color: #4ADE80; /* Light Green */
+            color: #166534; /* Dark Green text */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Global Functions (Removed getIcon as SVGs are now embedded) -->
+    <script>
+        const apiKey = ""; 
+    </script>
+
+    <!-- Navigation Header -->
+    <header id="header-nav" class="sticky top-0 z-10 bg-slate-900/95 backdrop-blur-sm shadow-lg border-b border-indigo-500/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo/Course Name -->
+            <a href="#" class="text-2xl font-extrabold tracking-tight text-white hover:text-indigo-400 transition">
+                Your Trading <span class="text-indigo-500">Path</span>
+            </a>
+            <!-- Simple CTA in Nav for Mobile/Desktop -->
+            <a href="#pricing-table" class="hidden md:inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 cta-button arabic-text">
+                اشترك الآن
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- 1. Hero Section (Landing Page) -->
+        <section class="py-20 md:py-32 text-center">
+            <div class="max-w-5xl mx-auto px-4">
+                <p class="text-indigo-400 font-semibold mb-3 tracking-widest uppercase text-sm">THE COMPLETE STRATEGY COURSE</p>
+                
+                <!-- Strong Headline -->
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 text-white">
+                    Learn Trading from Scratch to Pro – and Discover if This Path is Right for You
+                </h1>
+                
+                <!-- Sub-Headline -->
+                <p class="text-2xl font-medium text-slate-300 mb-6 max-w-4xl mx-auto">
+                    If you feel lost and don’t know where to start, this course will give you the foundations and practical steps to manage your money, trade smart, and build consistent results.
+                </p>
+
+                <!-- Price Display (Generic to encourage checking the options below) -->
+                <p class="text-4xl font-extrabold text-indigo-400 mb-8">
+                    Start Learning Today from $5
+                </p>
+
+                <!-- Call-to-Action Button -->
+                <a href="#pricing-table" class="inline-flex items-center justify-center px-10 py-4 text-lg font-bold rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 shadow-xl shadow-indigo-500/50 cta-button arabic-text">
+                    اشترك الآن <span class="ml-3">&rarr;</span>
+                </a>
+                <!-- Updated Trust Statement -->
+                <p class="mt-4 text-sm text-slate-500">This course is designed to give you clarity from day one, with practical steps you can apply immediately.</p>
+            </div>
+        </section>
+
+        <!-- 2. Course Details: Inclusions, Benefits, and Trust -->
+        <section class="py-16 md:py-24 bg-slate-800/50 border-t border-b border-indigo-500/20">
+            <div class="max-w-6xl mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-white">What You'll Achieve</h2>
+                
+                <!-- Inclusions & Benefits Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <!-- Inclusion 1: Master Technical Analysis -->
+                    <div class="bg-slate-800 p-6 rounded-xl shadow-2xl border border-indigo-500/10 hover:shadow-indigo-500/20 transition duration-300">
+                        <div class="feature-icon mb-4" aria-hidden="true" >
+                            <!-- Replaced: ${getIcon('chart', 'w-8 h-8')} -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7-5.5 5.2"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-white">Master Technical Analysis</h3>
+                        <p class="text-slate-400">Go beyond basic indicators. Learn to identify high-probability trade setups and understand market structure like a pro, applying institutional concepts.</p>
+                    </div>
+
+                    <!-- Inclusion 2: Rock-Solid Risk Management -->
+                    <div class="bg-slate-800 p-6 rounded-xl shadow-2xl border border-indigo-500/10 hover:shadow-indigo-500/20 transition duration-300">
+                        <div class="feature-icon mb-4" aria-hidden="true" >
+                            <!-- Replaced: ${getIcon('target', 'w-8 h-8')} -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-white">Rock-Solid Risk Management</h3>
+                        <p class="text-slate-400">Protect your capital first. Implement precise position sizing and stop-loss strategies to ensure long-term survival and success in volatile markets.</p>
+                    </div>
+
+                    <!-- Inclusion 3: Self-Discipline & Emotional Control -->
+                    <div class="bg-slate-800 p-6 rounded-xl shadow-2xl border border-indigo-500/10 hover:shadow-indigo-500/20 transition duration-300">
+                        <div class="feature-icon mb-4" aria-hidden="true" >
+                            <!-- Replaced: ${getIcon('users', 'w-8 h-8')} -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-white">Self-Discipline & Emotional Control</h3>
+                        <p class="text-slate-400">Learn how to manage your emotions, control fear and greed, and develop the discipline needed to trade with confidence and consistency.</p>
+                    </div>
+                </div>
+
+                <!-- Trust Section (Updated Instructor Info) -->
+                <div class="mt-16 pt-12 border-t border-slate-700/50">
+                    <!-- Heading -->
+                    <h2 class="text-3xl font-bold text-center mb-8 text-white">My Trading Journey</h2>
+                    <div class="max-w-4xl mx-auto text-center">
+                        <!-- Placeholder image -->
+                        <img src="https://placehold.co/100x100/1E293B/94A3B8?text=Youssef" alt="Course Instructor Profile Picture: Youssef Fekry" class="rounded-full w-24 h-24 mx-auto mb-4 border-4 border-indigo-500/50">
+                        
+                        <!-- Personal Story -->
+                        <div class="text-left space-y-4 text-slate-400 mt-6 mb-8 text-lg leading-relaxed">
+                            <p>When I first started trading, I was lost. I kept losing money, making the same mistakes over and over again. The markets felt complicated, overwhelming, and I even thought maybe trading wasn’t for me.</p>
+                            
+                            <p>But over time—through trial, error, and discipline—I learned how to approach the market with a **clear plan** and **control my emotions.**</p>
+                            
+                            <p>This course isn’t just theory. It’s the shortcut of my journey: from confusion and losses to trading with confidence. My goal is to save you the time, money, and frustration I went through, and give you a clear path to start strong.</p>
+                        </div>
+                        
+                        <!-- Key Takeaways List -->
+                        <ul class="mt-6 inline-block text-left text-lg space-y-2">
+                            <li class="text-white"><span class="text-indigo-400 font-bold mr-2">&bull;</span> Real hands-on experience in the markets</li>
+                            <li class="text-white"><span class="text-indigo-400 font-bold mr-2">&bull;</span> Clear, step-by-step methods instead of confusion</li>
+                            <li class="text-white"><span class="text-indigo-400 font-bold mr-2">&bull;</span> True focus on psychology as much as technicals</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Pricing Table Section -->
+        <section id="pricing-table" class="py-16 md:py-24 bg-slate-900 border-t border-b border-indigo-500/20">
+            <div class="max-w-6xl mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-12 text-white">Choose Your Trading Path</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+                    
+                    <!-- Course 1: Trading Basics -->
+                    <div class="bg-slate-800 p-8 rounded-2xl shadow-xl border-2 border-slate-700/50 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3 text-white">Trading Basics</h3>
+                            <!-- REMOVED h-16 to fix overlap/stray text appearance -->
+                            <p class="text-lg text-slate-400 mb-6 flex items-center justify-center">
+                                Learn the foundations of trading step by step, from zero to confidence.
+                            </p>
+                            <p class="text-4xl font-extrabold text-indigo-400 mb-6">
+                                $5 <span class="text-xl font-normal text-slate-400">(≈ 250 EGP)</span>
+                            </p>
+                        </div>
+                        <a href="#payment-details" class="inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 cta-button arabic-text">
+                            Sign Up Now
+                        </a>
+                    </div>
+
+                    <!-- Course 2: Trading Strategy -->
+                    <div class="bg-slate-800 p-8 rounded-2xl shadow-xl border-2 border-slate-700/50 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-3 text-white">Trading Strategy</h3>
+                            <!-- REMOVED h-16 to fix overlap/stray text appearance -->
+                            <p class="text-lg text-slate-400 mb-6 flex items-center justify-center">
+                                Master a proven strategy to trade smart, manage risks, and achieve consistent results.
+                            </p>
+                            <p class="text-4xl font-extrabold text-indigo-400 mb-6">
+                                $7 <span class="text-xl font-normal text-slate-400">(≈ 350 EGP)</span>
+                            </p>
+                        </div>
+                        <a href="#payment-details" class="inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 cta-button arabic-text">
+                            Sign Up Now
+                        </a>
+                    </div>
+
+                    <!-- Bundle Offer: Highlighted -->
+                    <div class="bundle-highlight px-8 pt-16 pb-8 rounded-2xl shadow-2xl border-2 flex flex-col justify-between relative">
+                        <!-- Badge -->
+                        <span class="bundle-badge absolute top-0 right-0 mt-4 mr-4 text-sm font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                            Best Value
+                        </span>
+                        <div>
+                            <h3 class="text-3xl font-bold mb-3 text-white">Get Both & Save!</h3>
+                            <!-- Shortened Description and removed h-16 fixed height -->
+                            <p class="text-base text-slate-200 mb-6 flex items-center justify-center">
+                                Get both courses: Basics and Strategy. Build your foundation and apply your strategy.
+                            </p>
+                            
+                            <p class="text-4xl font-extrabold text-white mb-6">
+                                $10 <span class="text-xl font-normal text-slate-300">(≈ 500 EGP)</span>
+                            </p>
+                            <!-- Adjusted font size from text-lg to text-sm -->
+                            <p class="text-sm text-red-300 line-through font-medium mb-4">
+                                Original Price: $12
+                            </p>
+                        </div>
+                        <a href="#payment-details" class="inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 shadow-lg shadow-indigo-500/50 cta-button arabic-text">
+                            Sign Up Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 4. Pricing / Final CTA Section (Unified Payment Instructions) -->
+        <section id="enroll" class="py-16 md:py-24 bg-slate-800/70 border-t border-indigo-500/20">
+            <div id="payment-details" class="max-w-3xl mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-4 text-white">Complete Your Enrollment</h2>
+                
+                <p class="text-2xl font-medium text-slate-300 mb-8">
+                    Choose the course(s) above and follow these two simple steps to finalize your access.
+                </p>
+
+                <div class="bg-slate-900 p-8 rounded-2xl shadow-2xl border border-indigo-500/30">
+                    <p class="text-xl font-semibold text-white mb-6">
+                        STEP 1: Send Your Payment
+                    </p>
+
+                    <!-- Payment Details -->
+                    <div class="space-y-4 mb-8 text-left bg-slate-800 p-4 rounded-lg border border-slate-700">
+                        <!-- Vodafone Cash (Payment Number) -->
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between p-3 bg-slate-700/50 rounded-lg">
+                            <span class="font-bold text-white mb-1 sm:mb-0">📲 Vodafone Cash (Payment):</span>
+                            <span class="text-indigo-400 text-xl font-mono">01098143273</span>
+                        </div>
+                        <!-- InstaPay (Payment Handle) -->
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between p-3 bg-slate-700/50 rounded-lg">
+                            <span class="font-bold text-white mb-1 sm:mb-0">💳 InstaPay (Payment):</span>
+                            <span class="text-indigo-400 text-xl font-mono">youssef_fekry77@instapay</span>
+                        </div>
+                    </div>
+                    
+                    <p class="text-xl font-semibold text-white mb-4">
+                        STEP 2: Confirm & Receive Course
+                    </p>
+
+                    <!-- Confirmation Note & New WhatsApp Contact -->
+                    <p class="text-lg text-center text-red-300 bg-red-900/30 p-4 rounded-lg border border-red-500/50 mb-6">
+                        <strong class="text-red-100">IMPORTANT:</strong> After making the payment, please send a screenshot via **WhatsApp to 01552113020** to receive your course instantly as a **PDF**.
+                    </p>
+                    
+                    <p class="text-sm text-slate-500 mb-4">
+                        (This number is for confirmation only, do not send payment to this number.)
+                    </p>
+
+                    <!-- WhatsApp Confirmation Button (using the new confirmation number) -->
+                    <a href="https://wa.me/201552113020" target="_blank" class="inline-flex items-center justify-center w-full sm:w-auto px-12 py-4 text-xl font-bold rounded-xl text-white bg-green-600 hover:bg-green-700 shadow-xl shadow-green-500/50 cta-button focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-opacity-50">
+                        <span class="mr-3">Send Confirmation on WhatsApp</span>
+                        <!-- WhatsApp Icon SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M12.012 0C5.394 0 .01 5.385 .01 12c0 2.21 1.258 3.565 2.5 4.935l-1.95 4.965 5.07-1.875c.98.545 2.12.875 3.53.875 6.61 0 11.995-5.385 11.995-12S18.622 0 12.012 0zm0 18.5c-1.285 0-2.525-.33-3.615-.925l-.25-.155-2.58 1.05 1.055-2.615-.16-.25c-.6-.97-1.07-2.12-1.07-3.415 0-5.39 4.39-9.78 9.78-9.78s9.78 4.39 9.78 9.78-4.39 9.78-9.78 9.78zm4.845-6.975c-.27-.135-.55-.225-.835-.34-.515-.22-.98-.445-1.425-.665-.575-.295-1.07-.48-1.425-.48-.025 0-.05.01-.075.025-.08.05-.125.105-.15.175-.02.095-.035.19-.035.295 0 .27.085.55.25.835.125.21.285.395.45.545.19.16.42.34.695.525.275.185.58.37.915.54.495.25.965.45 1.355.45.245 0 .445-.06.635-.185.195-.125.35-.295.45-.495.1-.2.155-.425.155-.665 0-.175-.045-.335-.11-.475-.06-.15-.15-.31-.24-.465z"/></svg>
+                    </a>
+
+                    <div class="mt-6 text-sm text-slate-500 flex items-center justify-center">
+                        <div class="w-4 h-4 mr-2" aria-hidden="true">
+                            <!-- Replaced: ${getIcon('lock', 'w-4 h-4')} -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                        </div>
+                        Fast Confirmation & Instant PDF Access Guaranteed.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-8 border-t border-slate-700/50">
+            <div class="max-w-6xl mx-auto px-4 text-center text-sm text-slate-500">
+                <p>&copy; 2025 Your Trading Path Course. All rights reserved.</p>
+                <div class="mt-2 space-x-4">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Course Access Area (Removed as per manual payment process) -->
+
+</body>
+</html>
